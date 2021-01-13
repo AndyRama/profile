@@ -1,49 +1,71 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>profil</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="card">
-            <h1>Hello, I'm Andy</h1>
-            <img src="images/id.png" alt="">
-
-            <p>
-                Coming from a BTS in electronic system, I worked for a B.M.E company in the after-sales service for 5 years. in 2013 i did a retraining in computer science as a computer network technician. I worked at the DSi of the Libourne hospital. Subsequently, I
-                set up a computer repair company in Mérignac. Now I integrate this training in order to develop my knowledge in this new field.
-            </p>
-
-            <a href="#">Discover my portfolio</a>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1;0">
+		<meta charset="utf-8">
+    <!-- We need this line below for responsiveness! -->
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<title>Portfolio Personal A.Ramaroson</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+ <body>
+    <!------------ CODE A NAVBAR SECTION --------------->
+   <header>
+     <a href="#" class="logo">Portfolio</a>
+	   <div class="navbar">
+		   <ul>
+			   <li><a href="#1">Home</a></li>
+				 <li><a href="#2">About me</a></li>
+				 <li><a href="#3">Projects</a></li>
+				 <!-- <li><a href="#4">Services</a></li> -->
+				 <li><a href="#5">Skills</a></li>
+				 <li><a href="#6">Contact</a></li>
+			 </ul>
+     </div>
+   </header>
+     <!--------------------  CODE A HERO/BANNER SECTION  -------------------->
+		<section class="banner" id="1">
+			<div class="b-img" style="background-image: url(images/banner.jpg);">
+  			<h2>Andy Ramaroson</h2>
+				<h3>Fullstack Developer | Ruby on Rails.</h3>
+				<h4>Wagon Bordeaux | Bacth#484</h4>
+        <div class="row-btn1">
+			  	<a href="https://www.youtube.com/watch?v=SJ3Zk3P9iX0&t=770s" target="new" class="btn" id="1">Batch#484</a>
+				  <a href="#3" class="btn">Project</a>
+       </div>
+       <div class="row-btn2">
+	       <div class="btn-links">
+				   <a href="https://github.com/AndyRama" target="blank"><i class="fa fa-github"></i></a>
+					 <a href="https://www.linkedin.com/in/andy-ramaroson" target="new"><i class="fa fa-linkedin"></i></a>
+				 </div> 
+       </div>
+			</div>
+		</section>
+    <!------------ SECTION ABOUT ME --------------->
+   <section class="intro" id="2">
+     <div class="row-text">
+		   <h2> About Me</h2>
+	     <div class="content">
+			   <div class="contentBx w50">
+				   <h3>Somes words About Me !!!</h3>
+				   <p>Coming from a BTS in electronic system, I worked for the company <strong>Bio Medical Electronique</strong>
+					 in several departments for 5 years (After-Sales Service, Production and Design Office). In 2013, I undertook a 
+					 recoversion in IT as an IT Network Technician. I worked at the DSi of the Libourne hospital for 1 years where
+					 I discovered the operation of an IT department and network administration maintenance. Subsequently, I created
+					 as an Auto-Entrepreneur of IT assistance and maintenance in Mérignac for Liberal firms.<br><br>
+					 In October 2020 I join this training in order to develop my knowledge in this field with <strong>leWagon</strong>.
+					 I am able to build a database backed web application with good UX. Have a good design and integrate an A.P.I.
+					 But also put the project in production and work as a team with a workflow such as git & GitHub.</p> 
+		     </div>
         </div>
-
-        <div class="card">
-            <h2>FOLLOW ME </h2>
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-</body>
-
+      </div>
+      <div class="row-img">
+		    <div class="contentBx w50">
+		      <img src="images/workdspace.png" class="img">
+		    </div>
+      </div>
+    </section>
+  </body>
 </html>
+

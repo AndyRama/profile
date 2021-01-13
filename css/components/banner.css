@@ -1,0 +1,45 @@
+/*---- HERO BANNER---------*/
+
+.banner-img {
+  position: absolute;
+  height:  100vh;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+/* padding-bottom: 80px !important; */
+  padding: 150px 0;
+}
+
+.banner h2 {
+	font-size: 3em;
+	color: white;
+	font-weight: 500;
+	line-height: 1.2em;
+  padding-left: 100px;
+  padding-top: 300px;
+}
+
+.banner h2 span {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.banner h3 {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 500;
+  padding-left: 100px;
+  
+}
+
+.banner h4 {
+	font-size: 1.5em;
+	color: white;
+	font-weight: 500;
+  padding-left: 100px;
+}
+
+
+
+
+

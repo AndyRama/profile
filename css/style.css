@@ -1,0 +1,68 @@
+/* --- Fonts --- */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* --- Components design --- */
+
+@import url("components/banner.css");
+@import url("components/navbar.css");
+@import url("components/button.css");
+/* @import url("components/dropdown.css"); */
+/* @import url("components/card.css"); */
+/* @import url("components/badge.css"); */
+/* @import url("components/tabs.css"); */
+/* @import url("components/list.css"); */
+
+
+/* --- Body --- */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
+ }
+
+
+.row-text {
+	width: 100%;
+	text-align:  center;
+	margin-bottom: 30px;
+	color: #111;
+}
+
+.row-text h2 {
+    font-weight: 600;
+    font-style: 30px;
+    justify-content: center; 
+    margin-top: 5px;
+}
+
+.row-text .content {
+	display: inline-block;
+	justify-content: space-between;
+}
+
+.contentBx {
+	padding-right: 30px;
+  display: content;
+flex-direction: row;
+}
+
+.contentBx h3 {
+  font-size: 24px;
+  margin-bottom: 10px
+}
+
+.w50 {
+	min-width: 50%;	
+  text-align: justify; 
+  padding-left: 5px;
+}
+
+img {
+	max-width: 33%;
+  display: content;
+flex-direction: row;
+}
